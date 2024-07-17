@@ -51,4 +51,4 @@ Libraries Utilized:
 ![Settings-Light](https://github.com/user-attachments/assets/1984d156-fa7d-460f-beb6-c97444674592) ![Settings-Dark](https://github.com/user-attachments/assets/b8af9b65-a18d-46c3-90eb-e94fe0ca5428)<br><br>
 
 ## Credits to: <br>
-CodingWithNomi for his iOS Jarvis app tutorial
+@codewithnomi for his iOS Jarvis app tutorial - which I converted for android
