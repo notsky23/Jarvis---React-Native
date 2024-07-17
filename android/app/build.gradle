@@ -97,10 +97,16 @@ android {
         }
         release {
             storeFile file("../my-release-key.keystore")
-            storePassword project.hasProperty('MYAPP_RELEASE_STORE_PASSWORD') ? MYAPP_RELEASE_STORE_PASSWORD : ""
-            keyAlias project.hasProperty('MYAPP_RELEASE_KEY_ALIAS') ? MYAPP_RELEASE_KEY_ALIAS : ""
-            keyPassword project.hasProperty('MYAPP_RELEASE_KEY_PASSWORD') ? MYAPP_RELEASE_KEY_PASSWORD : ""
+            storePassword project.env.get('MYAPP_RELEASE_STORE_PASSWORD')
+            keyAlias project.env.get('MYAPP_RELEASE_KEY_ALIAS')
+            keyPassword project.env.get('MYAPP_RELEASE_KEY_PASSWORD')
         }
+        // release {
+        //     storeFile file("../my-release-key.keystore")
+        //     storePassword project.hasProperty('MYAPP_RELEASE_STORE_PASSWORD') ? MYAPP_RELEASE_STORE_PASSWORD : ""
+        //     keyAlias project.hasProperty('MYAPP_RELEASE_KEY_ALIAS') ? MYAPP_RELEASE_KEY_ALIAS : ""
+        //     keyPassword project.hasProperty('MYAPP_RELEASE_KEY_PASSWORD') ? MYAPP_RELEASE_KEY_PASSWORD : ""
+        // }
     }
     buildTypes {
         debug {
