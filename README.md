@@ -39,7 +39,9 @@ Libraries Utilized:
 <br><br>
 
 ### 1 - Welcome Screen:<be>
-![image](https://github.com/user-attachments/assets/49ecf89f-f594-4064-83f1-c282f1c420ff)<br><br>
+![Welcome-Light](https://github.com/user-attachments/assets/49ecf89f-f594-4064-83f1-c282f1c420ff)![Welcome-Dark](https://github.com/user-attachments/assets/2cf433c6-8d6a-4fa4-b7e0-e38da9c4c8ba)<br><br>
+
+
 
 
 ## Credits to: <br>
